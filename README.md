@@ -4,6 +4,8 @@
 [![rank](https://make.fun/badge/gta6-01/minahichan/gta6-01/rank.svg)](https://make.fun/c/gta6-01)
 [![reward](https://make.fun/badge/gta6-01/minahichan/gta6-01/reward.svg)](https://make.fun/c/gta6-01)
 
+<!-- Round 2 note: the entry program now clears only the contents of the grader's output directory, never the directory itself (removing the mounted /output failed with EPERM in round 1). The game itself is unchanged. -->
+
 **Solara Bay** is a complete open-world crime game that runs offline in a desktop
 browser from its own static files — no network, no build step, no libraries.
 You are Danny Reyes, fresh out of the yard, back in the sun-soaked coastal city

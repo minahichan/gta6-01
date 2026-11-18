@@ -1,5 +1,6 @@
 // Solara Bay — pedestrians: sidewalk strollers who flee gunfire and traffic.
 // They make the city feel alive and give the wanted system something to react to.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

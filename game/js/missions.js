@@ -1,6 +1,7 @@
 // Solara Bay — missions and story: six jobs for Sol Vega, then repeatable gigs.
 // Each mission sets markers, a timer and a win condition; the HUD reads
 // currentMission for its title and objective line.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

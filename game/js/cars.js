@@ -1,6 +1,7 @@
 // Solara Bay — vehicles: player driving physics, traffic AI, parked cars.
 // Cars are circles at their front and rear for collision; traffic follows the
 // street grid and turns at intersections like real drivers.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

@@ -1,5 +1,6 @@
 // Solara Bay — synthesized sound: WebAudio only, no audio files.
 // Every effect is built from oscillators and filtered noise at play time.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

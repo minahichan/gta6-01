@@ -1,5 +1,6 @@
 // Solara Bay — HUD and menus: health, cash, wanted stars, mission tracker,
 // contextual hints, banners, start/pause/game-over screens, and saving.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

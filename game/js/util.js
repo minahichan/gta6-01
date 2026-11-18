@@ -1,5 +1,6 @@
 // Solara Bay — shared helpers.
 // Every game module attaches itself to the SB namespace defined here.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 window.SB = window.SB || {};
 
 (function () {

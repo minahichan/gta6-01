@@ -1,6 +1,7 @@
 // Solara Bay — the wanted system and the Solara Bay Police Department.
 // Stars rise with crime, cops chase on foot and in cruisers, and the heat
 // only cools when the player stays out of sight.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

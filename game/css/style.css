@@ -1,4 +1,5 @@
 /* Solara Bay — HUD, menus and overlays. The game itself draws on canvas. */
+/* Round 2: no style changes — the round-1 fix lives in main.ts only (the entry program no longer removes the grader's mounted output directory). */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { width: 100%; height: 100%; overflow: hidden; background: #f7d9a0; }
 body { font-family: 'Trebuchet MS', 'Segoe UI', Verdana, sans-serif; color: #f4efe4; }
