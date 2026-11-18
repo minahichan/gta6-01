@@ -1,4 +1,5 @@
 // Solara Bay — keyboard and mouse input, with edge-triggered presses.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

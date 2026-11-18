@@ -2,6 +2,7 @@
 // The game renders its own systems in a chosen moment (a chase, a job, a
 // walk through the plaza) so its maker can capture honest screenshots.
 // Normal play never passes a demo parameter.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

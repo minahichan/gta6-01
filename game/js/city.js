@@ -1,6 +1,7 @@
 // Solara Bay — procedural city: streets, blocks, buildings, beach, landmarks.
 // The city is generated once from a fixed seed, so every playthrough shares
 // the same streets and every mission marker lands on a real place.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

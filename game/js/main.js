@@ -1,5 +1,6 @@
 // Solara Bay — boot and main loop: world setup, state machine, autosave.
 // States: menu → playing ⇄ paused → busted / wasted → menu.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 

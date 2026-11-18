@@ -1,5 +1,6 @@
 // Solara Bay — the player on foot: walking, running, stealing cars, combat.
 // Bullets, health and the busted/wasted states live here too.
+// Round 2: untouched logic — the round-1 fix is in main.ts only.
 (function () {
   'use strict';
 
