@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Solara Bay — a complete open-world crime game that runs offline in a desktop browser. Steal cars, run jobs, dodge the SBPD.">
+<link rel="icon" href="data:,">
+<title>Solara Bay — Open World Crime</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<noscript><p style="padding:20px;font-family:sans-serif">Solara Bay needs JavaScript to play.</p></noscript>
+<canvas id="game"></canvas>
+
+<div id="hud" class="hidden">
+  <div id="hud-top-left">
+    <div id="health-bar"><div id="health-fill"></div><span id="health-num">100</span></div>
+    <div id="cash-row"><span id="cash-label">Cash</span><span id="cash">$250</span><span id="ammo"></span></div>
+    <div id="stars">☆☆☆☆☆</div>
+    <div id="street"></div>
+  </div>
+  <div id="hud-top-right">
+    <canvas id="minimap" width="190" height="190"></canvas>
+    <div id="speed"></div>
+  </div>
+  <div id="hud-bottom">
+    <div id="objective-box">
+      <div id="objective-title">Meet Sol</div>
+      <div id="objective">Drive or walk to La Luna Bar</div>
+      <div id="timer"></div>
+    </div>
+    <div id="hint"></div>
+  </div>
+  <div id="flash"></div>
+  <div id="banner" class="hidden">
+    <div id="banner-title"></div>
+    <div id="banner-text"></div>
+  </div>
+</div>
+
+<div id="menu">
+  <div id="menu-card">
+    <div id="menu-title">SOLARA BAY</div>
+    <div id="menu-sub">An open-world crime story &middot; Solara Bay, Florida sun, trouble everywhere</div>
+    <div id="menu-body"></div>
+    <button id="menu-start" type="button">Start</button>
+    <button id="menu-continue" type="button">Continue</button>
+    <div id="menu-note"></div>
+  </div>
+</div>
+
+<div id="pause" class="hidden">
+  <div id="pause-card">
+    <div id="pause-title">PAUSED</div>
+    <p>Solara Bay waits for no one — except right now.</p>
+    <button type="button" data-resume>Resume</button>
+    <button type="button" data-quit>Quit to menu</button>
+  </div>
+</div>
+
+<script src="js/util.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/city.js"></script>
+<script src="js/input.js"></script>
+<script src="js/player.js"></script>
+<script src="js/cars.js"></script>
+<script src="js/peds.js"></script>
+<script src="js/police.js"></script>
+<script src="js/missions.js"></script>
+<script src="js/render.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/demo.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
